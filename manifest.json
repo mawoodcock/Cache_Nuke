@@ -1,0 +1,16 @@
+{
+  "name": "Chrome Cache Nuke",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Easy button to clear your cache with your default options.",
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "permissions": ["browsingData", "tabs", "cookies", "<all_urls>"]
+}
+
+
+
+	
