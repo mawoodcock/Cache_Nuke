@@ -4,10 +4,12 @@
   "manifest_version": 2,
   "description": "Easy button to clear your cache with your default options.",
   "browser_action": {
-    "icons": {  "16": "images/icon16.png",
-				"48": "images/icon48.png",
-				"128": "images/icon128.png"
-		     }	
+	    "default_icon": "images/icon48.png",
+		"default_title": "Chrome Cache Nuke"	
+  },
+  "icons": {  "16": "images/icon16.png",
+		      "48": "images/icon48.png",
+		     "128": "images/icon128.png"
   },
   "background": {
 		"scripts": ["background.js"]
